@@ -1,8 +1,44 @@
-
+/*titulos*/
 .photo{ 
-    max-width:300px;
+        max-width:300px;
 }
-.Router{ 
-    max-width:300px;
+.photoANI{ 
+    max-width:230px;
+}
+.iconos{ 
+         max-width:70px;
+}
+
+/*colores*/
+
+:root{ 
+--adornos: #FF8906;
+--iconos: #E53170;
+--fondo: #1E1E1E;
+--textos:#FFFFFE;
+--textos-naranja:#360235;
+
+}
+/*iconos*/ 
+.mi-icono {
+    color: var(--iconos); 
+}
+
+
+/*tipografia*/
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h1.title {
+    font-family: "Karantina", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--textos);
+}
+
+h2.subtitle { 
+    font-family: "Karantina", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--textos-naranja);
 }
 
