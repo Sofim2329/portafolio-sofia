@@ -64,7 +64,8 @@ p.textos-blancos-pequeños {
 /*alineacion*/
 
 .alineacion-H {
-    align-items: center;     
+    display: flex;
+    gap: 10px;  
     }
 
     /*colores*/
