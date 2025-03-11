@@ -1,4 +1,4 @@
-/*titulos*/
+/*tamaños de imagen*/
 .photo{ 
         max-width:300px;
 }
@@ -92,11 +92,5 @@ p.textos-blancos-pequeños {
 /*alineacion*/
 
 .alineacion-H {
-    display: flex;          
-    gap: 10px;               
-}
-
-.alineacion-L {
-    display: flex;          
-    gap: 50px;               
-}
+    align-items: center;     
+    }
