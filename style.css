@@ -14,34 +14,6 @@
     height: 17px; 
 }
 
-/*colores*/
-
-:root{ 
---adornos: #FF8906;
---iconos: #E53170;
---icono: #F25F4C;
---fondo: #1E1E1E;
---textos:#FFFFFE;
---textos-naranja:#360235;
-
-}
-/*iconos*/ 
-.mi-icono {
-    color: var(--iconos); 
-}
-
-.icono-contacto {
-    color: var(--icono); 
-}
-
-.estrella {
-    color: var(--fondo); 
-}
-
-.mano {
-    color: var(--textos-naranja); 
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Afacad&display=swap');
@@ -94,3 +66,32 @@ p.textos-blancos-pequeños {
 .alineacion-H {
     align-items: center;     
     }
+
+    /*colores*/
+
+:root{ 
+    --adornos: #FF8906;
+    --iconos: #E53170;
+    --icono: #F25F4C;
+    --fondo: #1E1E1E;
+    --textos:#FFFFFE;
+    --textos-naranja:#360235;
+    
+    }
+    /*iconos*/ 
+    .mi-icono {
+        color: var(--iconos); 
+    }
+    
+    .icono-contacto {
+        color: var(--icono); 
+    }
+    
+    .estrella {
+        color: var(--fondo); 
+    }
+    
+    .mano {
+        color: var(--textos-naranja); 
+    }
+    
