@@ -3,7 +3,11 @@
         max-width:300px;
 }
 .photoANI{ 
-    max-width:390px;
+    max-width:380px;
+    background-color: var(--adornos); 
+    border-radius: 50%; 
+    width: 438px; 
+    height: 438px; 
 }
 .iconos{ 
     max-width:65px;
@@ -21,17 +25,6 @@
     border-radius: 50%; 
 }
 
-.barra-base{
-    width: 502px; 
-    height: 25px; 
-    background-color: var(--barra-base); 
-}
-
-.barra-base-pequeña{
-    width: 239px; 
-    height: 25px; 
-    background-color: var(--barra-base); 
-}
 
 /*Tipografias*/
 
@@ -89,11 +82,11 @@ p.textos-blancos-pequeños {
     font-size: 18px;
 }
 
-/*alineacion*/
+/*alineaciones*/
 
 .al-H {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     gap: 10px;
 }
 
