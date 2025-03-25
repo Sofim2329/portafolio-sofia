@@ -1,14 +1,19 @@
 /*tamaños*/
 .photo{ 
-        max-width:300px;
+        max-width:454px;
 }
+
 .photoANI{ 
-    max-width:380px;
-    background-color: var(--adornos); 
-    border-radius: 50%; 
-    width: 438px; 
-    height: 438px; 
+    width: 293px;
+    height: 399px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    object-fit: cover;
 }
+
 .iconos{ 
     max-width:65px;
 }
@@ -21,10 +26,19 @@
 .circulo {
     width: 438px; 
     height: 438px; 
-    background-color: var(--adornos); 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    background-color: var(--adornos);
     border-radius: 50%; 
 }
 
+.barrast{
+    width: 502px; 
+    height: 25.06px; 
+}
 
 /*Tipografias*/
 
@@ -84,6 +98,25 @@ p.textos-blancos-pequeños {
 
 /*alineaciones*/
 
+.p1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+}
+
+.p11{
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.AniP {
+    position: relative;
+    width: 438px; 
+    height: 438px;
+}
+
 .al-H {
     display: flex;
     align-items: center;
@@ -140,6 +173,7 @@ p.textos-blancos-pequeños {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap:38px;
 }
 
 .barras {
