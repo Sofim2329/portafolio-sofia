@@ -103,6 +103,7 @@ p.textos-blancos {
     color: var(--textos);
     font-size: 40px;
     line-height:0.9;
+    
 }
 
 h2.subtitle-blanco { 
@@ -111,6 +112,7 @@ h2.subtitle-blanco {
     font-style: normal;
     color: var(--textos);
     font-size: 96px;
+    flex-wrap:wrap;
 }
 
 h2.subtitle-naranja { 
@@ -129,10 +131,18 @@ p.textos-blancos-pequeños {
 
 /*alineaciones*/
 
+.P3{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+    gap: 7.5vw;
+    margin-bottom: 198px;
+    flex-wrap: wrap;
+}
+
 .alS{
     display: flex;
     align-items: flex-end;
-    position: relative;
     flex-wrap:wrap;
 }
 
