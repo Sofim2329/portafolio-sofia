@@ -1,6 +1,13 @@
 /*tamaños*/
 .photo{ 
-        max-width:454px;
+    width: 413px;
+    height:454px;
+    border-radius: 25px;
+}
+
+.Router{ 
+    max-width:454px;
+    border-radius: 25px;
 }
 
 .photoANI{ 
@@ -35,9 +42,14 @@
     border-radius: 50%; 
 }
 
-.barrast{
-    width: 502px; 
-    height: 25.06px; 
+.fondotp {
+    background-color: var(--adornos);
+    width: 1173px;
+    height: 86px;
+    padding: 29px;
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
 }
 
 /*Tipografias*/
@@ -60,18 +72,37 @@ h2.subtitle {
     font-style: normal;
     color: var(--textos-naranja);
     font-size: 120px;
+    background-color: var(--adornos);
+    width: 383px;
+    height: 137px;
+    padding: 29px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: absolute;
+    z-index: 2; 
 }
 
 h2.textos { 
     font-family: "Afacad", sans-serif;
+    font-weight: 700;
     color: var(--textos-naranja);
+    background-color: var(--adornos);
     font-size: 40px;
+    text-align: center;
+    padding: 13px; 
+    border-radius: 15px;
+    width:692px; 
+    height:67px; 
 }
 
 p.textos-blancos { 
     font-family: "Afacad", sans-serif;
     color: var(--textos);
     font-size: 40px;
+    line-height:0.9;
 }
 
 h2.subtitle-blanco { 
@@ -98,17 +129,53 @@ p.textos-blancos-pequeños {
 
 /*alineaciones*/
 
+.alS{
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    flex-wrap:wrap;
+}
+
+.P1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+.p2{
+    display: flex;
+    justify-content:center;
+    margin:auto;
+}
+
 .p1{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap:65px;
+    margin-top: 59px; 
+    margin-bottom: 78px; 
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap:wrap;
+
 }
 
 .p11{
     display: flex;
     align-items: stretch;
     flex-direction: column;
-    gap: 35px;
+    gap:35px;
+    width: 693px; 
+    height: auto; 
+}
+
+.p10{
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    gap:26px;
+    width: 693px; 
 }
 
 .AniP {
@@ -173,7 +240,11 @@ p.textos-blancos-pequeños {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap:wrap;
     gap:38px;
+    margin-top: 165px; 
+    margin-bottom: 326px; 
+    
 }
 
 .barras {
@@ -248,9 +319,6 @@ p.textos-blancos-pequeños {
 /*Botones*/
 
 .button {
-    background-color: #FF8906 ;
-    width: 1194px; 
-    height:117px;
     display: flex;
     align-items: center;
     justify-content: center;
