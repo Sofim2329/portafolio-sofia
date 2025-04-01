@@ -6,8 +6,8 @@
 }
 
 .Router{ 
-    max-width:1164px;
-    border-radius: 25px;
+    max-width:936px;
+    border-radius: 15px;
 }
 
 .photoANI{ 
@@ -23,7 +23,6 @@
 
 .iconos{ 
     max-width:65px;
-    border: none;
 }
 
 .icono-insta {
@@ -61,6 +60,13 @@
     height: 51px;
     border-radius: 15px;
 }
+
+.flechasT{ 
+    font-size: 50px;
+    font-style: bold;
+
+}
+
 
 /*Tipografias*/
 
@@ -134,7 +140,6 @@ p.textos-blancos a {
     text-decoration: none;
 }
 
-
 h2.subtitle-blanco { 
     font-family: "Karantina", system-ui;
     font-weight: 400;
@@ -150,6 +155,11 @@ h2.subtitle-naranja {
     font-style: normal;
     color: var(--textos-naranja);
     font-size: 96px;
+    background-color: var(--adornos);
+    padding:6px;
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 95px;
 }
 
 p.textos-blancos-pequeños { 
@@ -159,6 +169,14 @@ p.textos-blancos-pequeños {
 }
 
 /*alineaciones*/
+
+.img1 { 
+    display: flex;
+    flex-direction: row-reverse;
+    gap:24px;
+    justify-content: center; 
+    align-items:center;
+}
 
 .P3{
     display: flex;
@@ -357,10 +375,15 @@ p.textos-blancos-pequeños {
 .flechas {
     display: flex;
     justify-content: center; 
-    gap: 1100px; 
+    gap: 1015px; 
     flex-direction: row;
 }
 
+.PC {
+    display: flex;
+    justify-content: flex-start
+
+}
 
 /*colores*/
 :root{ 
@@ -410,12 +433,14 @@ p.textos-blancos-pequeños {
 
 .flechas-B {
     background-color: var(--adornos);
-    color: white;
-    border: none;
-    padding: 10px 20px;
+    color: var(--textos-naranja);
     border-radius: 15px;
+    width: 75px;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
 }
 
 .button:hover {
