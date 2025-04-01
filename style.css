@@ -6,7 +6,7 @@
 }
 
 .Router{ 
-    max-width:454px;
+    max-width:1164px;
     border-radius: 25px;
 }
 
@@ -23,11 +23,14 @@
 
 .iconos{ 
     max-width:65px;
+    border: none;
 }
 
 .icono-insta {
     width: 95px;  
     height: 95px; 
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .circulo {
@@ -50,6 +53,13 @@
     border-radius: 15px;
     position: relative;
     z-index: 1;
+}
+
+.fondohp {
+    background-color: var(--iconos);
+    width:502px; 
+    height: 51px;
+    border-radius: 15px;
 }
 
 /*Tipografias*/
@@ -85,6 +95,16 @@ h2.subtitle {
     z-index: 2; 
 }
 
+h2.boton { 
+    font-family: "Karantina", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 120px;
+    color: var(--textos-naranja);
+    text-align: center;
+    margin: 0;
+}
+
 h2.textos { 
     font-family: "Afacad", sans-serif;
     font-weight: 700;
@@ -105,6 +125,15 @@ p.textos-blancos {
     line-height:0.9;
     
 }
+
+p.textos-blancos a {
+    font-family: "Afacad", sans-serif;
+    color: var(--textos);
+    font-size: 40px;
+    line-height:0.9;
+    text-decoration: none;
+}
+
 
 h2.subtitle-blanco { 
     font-family: "Karantina", system-ui;
@@ -137,6 +166,16 @@ p.textos-blancos-pequeños {
     justify-content: center; 
     gap: 7.5vw;
     margin-bottom: 198px;
+    flex-wrap: wrap;
+}
+
+.P4{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+    gap: 12vw;
+    flex-shrink: 1;
+    margin-bottom: 74px;
     flex-wrap: wrap;
 }
 
@@ -196,20 +235,38 @@ p.textos-blancos-pequeños {
 
 .al-H {
     display: flex;
-    align-items: center;
+    align-items: baseline;
+    gap: 10px;
+    background-color: var(--iconos);
+    width: 502px; 
+    height: 51px;
+    border-radius: 15px; 
+}
+
+.al-H2 {
+    display: flex;
+    align-items: baseline;
     gap: 10px;
 }
 
 .al-P {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
     display: flex;
-    align-items:center;
+    align-items: center;
+    justify-content: center;
     gap: 24px;
+    cursor: pointer;
 }
 
 .al-P2 {
     display: flex;
-    justify-content: center; 
-    align-items: center; 
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 201px;
 }
 
 .al-C {
@@ -220,24 +277,18 @@ p.textos-blancos-pequeños {
 
 .al-C2 {
     display: flex;
-    align-items:stretch;
-    justify-content:flex-start;
+    align-items:center;
     flex-direction: column;
-    gap: 75px;
-}
-
-.al-C22 {
-    display: flex;
-    align-items:stretch;
-    justify-content:flex-start;
-    flex-direction: column;
-    gap: 97px;
+    align-items: flex-start;
+    gap:88px;
 }
 
 .al-C3 {
     display: flex;
     align-items:baseline;
-    justify-content:space-around;
+    justify-content:center;
+    gap:112px;
+    flex-wrap:wrap;
 }
 
 .contenedor-imagen-perfil {
@@ -294,6 +345,23 @@ p.textos-blancos-pequeños {
     padding: 20px;
 }
 
+.P5 {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    margin-top: 61px;
+    margin-bottom: 37px;
+}
+
+.flechas {
+    display: flex;
+    justify-content: center; 
+    gap: 1100px; 
+    flex-direction: row;
+}
+
+
 /*colores*/
 :root{ 
     --adornos: #FF8906;
@@ -319,6 +387,7 @@ p.textos-blancos-pequeños {
     .estrella {
         color: var(--fondo);
         font-size: 34px; 
+        margin-left:15px;
     }
     
     .mano {
@@ -329,7 +398,35 @@ p.textos-blancos-pequeños {
 /*Botones*/
 
 .button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 1194px;
+    height: 135px;
+    border-radius: 15px;
+    background-color: var(--adornos);
+    position: relative;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.flechas-B {
+    background-color: var(--adornos);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.button:hover {
+    background-color: var(--barra-base);
+}
+
+.textos-blancos a:hover {
+    color: var(--iconos);
+    text-decoration: underline;
+}
+
+.flechas-B:hover {
+    background-color:var(--barra-base); 
 }
