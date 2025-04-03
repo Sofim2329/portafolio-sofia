@@ -110,7 +110,11 @@ h2.subtitle2 {
     font-family: "Karantina", system-ui;
     font-weight: 400;
     font-style: normal;
-    font-size: 120px;
+    font-size: 75px;
+    color: var(--textos-naranja);
+    display: flex;
+    text-align: center;
+    line-height:0.9;
 }
 
 h2.boton { 
@@ -213,6 +217,14 @@ p.textos-blancos-pequeños {
     justify-content: center; 
     align-items:center;
     margin-bottom: 55px;
+}
+
+.img4 { 
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center; 
+    align-items:center;
+    gap: 114px;
 }
 
 .img3 { 
@@ -488,6 +500,22 @@ p.textos-blancos-pequeños {
     transition: background-color 0.2s ease-in-out;
 }
 
+.buttonI {
+    width: 168px;
+    height: 75px;
+    border-radius: 15px;
+    background-color: var(--adornos);
+    position: relative;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+}
+
 .flechas-B {
     background-color: var(--adornos);
     color: var(--textos-naranja);
@@ -513,4 +541,8 @@ p.textos-blancos-pequeños {
 
 .flechas-B:hover {
     background-color:var(--barra-base); 
+}
+
+.buttonI:hover {
+    background-color: var(--barra-base);
 }
