@@ -1,0 +1,139 @@
+@media only screen and (max-width: 600px) {
+
+/*Tipografias*/
+
+h1.title {
+    font-size: 65px;
+}
+
+h2.subtitle { 
+  font-size: 30px;
+  width: 154px;
+  height: 50px;
+  margin: 0px;
+}
+
+h2.textos { 
+  font-size: 24px;
+  padding: 0px; 
+  border-radius: 15px;
+  width:368px;
+  height: 45px;
+
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+p.textos-blancos { 
+  font-size: 18px;
+  text-align: center;
+  margin: 0px;
+}
+
+h2.subtitle-blanco { 
+  font-size:64px;
+ 
+}
+
+/*tamaños*/
+
+.photoANI{ 
+  width:  109px;
+  height: auto;
+}
+
+.circulo {
+  width: 169px; 
+  height: 160px; 
+}
+
+.fondotp{
+  width:369px; 
+  height: 31px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.photo{ 
+  width: 177px;
+  height:auto;
+  border-radius: 25px;
+}
+
+.iconos{ 
+  max-width:24px;
+}
+
+.barrasT{ 
+  max-width:275px;
+}
+
+
+/*alineaciones*/
+
+.contenedor-titulo {
+  gap:13px;
+  margin-top: 38px; 
+  margin-bottom: 45px; 
+}
+
+.AniP {
+  width: 169px; 
+  height: 160px; 
+}
+
+.alS{
+justify-content:center ;
+}
+
+.P1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+}
+
+.p1{
+  gap: 37px;
+  margin-top: 33px; 
+  margin-bottom: 37px; 
+  flex-direction:column;
+  justify-content:center;
+  align-items: center;
+}
+
+.p10{
+  align-items:center;
+
+}
+
+.p11{
+  gap:2px;
+  width: 367px; 
+  height: auto; 
+}
+
+.al-H2 {
+  display: flex;
+  align-items:center;
+  gap: 14px;
+}
+
+.b1 {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  gap:0px;
+}
+
+.barras {
+  gap: 10px;
+}
+
+.b2 {
+  gap:21px;
+}
+
+
+  }
