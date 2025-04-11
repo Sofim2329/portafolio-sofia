@@ -3,7 +3,7 @@
 /*Tipografias*/
 
 h1.title {
-    font-size: 65px;
+  font-size: 65px;
 }
 
 h2.subtitle { 
@@ -31,12 +31,11 @@ p.textos-blancos {
   margin: 0px;
 }
 
-h2.subtitle-blanco { 
-  font-size:64px;
- 
+h2.boton { 
+  font-size: 64px;
 }
 
-h2.boton { 
+h2.subtitle-blanco { 
   font-size: 64px;
 }
 
@@ -85,6 +84,17 @@ h2.boton {
 
 .mano {
   font-size: 37px; 
+}
+
+.icono-contacto {
+  font-size: 25px;
+}
+
+.icono-insta {
+  width: 25px;  
+  height: 25px; 
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 /*alineaciones*/
