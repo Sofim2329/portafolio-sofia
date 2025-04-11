@@ -36,6 +36,10 @@ h2.subtitle-blanco {
  
 }
 
+h2.boton { 
+  font-size: 64px;
+}
+
 /*tamaños*/
 
 .photoANI{ 
@@ -69,6 +73,19 @@ h2.subtitle-blanco {
   max-width:275px;
 }
 
+.barrasI{ 
+  width: 321px; 
+  height: 12px;
+}
+
+.estrella {
+  font-size: 23px; 
+  margin-left:15px;
+}
+
+.mano {
+  font-size: 37px; 
+}
 
 /*alineaciones*/
 
@@ -127,13 +144,60 @@ justify-content:center ;
   gap:0px;
 }
 
+.b11 {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+}
+
 .barras {
   gap: 10px;
 }
+
+.barrasIz {
+  flex-direction: column;
+  gap: 10px;
+}
+
 
 .b2 {
   gap:21px;
 }
 
+
+.b3 {
+  flex-direction: column-reverse ;
+}
+
+
+.al-H {
+  width: 321px; 
+  height: 35px;
+  align-items: center;
+
+}
+
+.al-P {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 8px;
+}
+
+.al-P2 {
+  margin-bottom: 50px;
+}
+
+/*Botones*/
+
+.button {
+  width:230px;
+  height: 65px;
+  border-radius: 15px;
+  background-color: var(--adornos);
+  position: relative;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
 
   }

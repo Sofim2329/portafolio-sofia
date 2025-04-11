@@ -29,6 +29,10 @@
     max-width:502px;
 }
 
+.barrasI{ 
+    max-width:239px;
+}
+
 .icono-insta {
     width: 95px;  
     height: 95px; 
@@ -400,6 +404,13 @@ p.textos-blancos-pequeños {
     gap:30px;
 }
 
+.barrasIz {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+}
+
 .b3 {
     display: flex;
     flex-direction: column ;
@@ -421,6 +432,14 @@ p.textos-blancos-pequeños {
     flex-direction: column;
     gap:20px;
 }
+
+.b11 {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    gap:20px;
+}
+
 
 .al-1 {
     display: flex;
