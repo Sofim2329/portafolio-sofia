@@ -169,7 +169,7 @@ h2.subtitle-blanco {
     font-weight: 400;
     font-style: normal;
     color: var(--textos);
-    font-size: 96px;
+    font-size:5vw;
     text-align: center;
     flex-wrap:wrap;
 }
@@ -221,7 +221,6 @@ p.textos-blancos-pequeños {
     justify-content: center;
     flex-wrap:wrap;
     gap:23px;
-    margin-top: 73px;
 }
 
 .img1 { 
