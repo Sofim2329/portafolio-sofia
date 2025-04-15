@@ -14,21 +14,20 @@ h2.subtitle {
 }
 
 h2.textos { 
-  font-size: 24px;
-  padding: 0px; 
-  border-radius: 15px;
-  width:368px;
-  height: 45px;
-
   display: flex;
   justify-content: center; 
   align-items: center;
+  font-size: 	6.40vw;
 }
 
-p.textos-blancos { 
-  font-size: 18px;
+p.textos-blancos, a.textos-blancos { 
+  font-size: 4.80vw;
   text-align: center;
   margin: 0px;
+}
+
+p.textos-blancos a {
+  font-size:4vw
 }
 
 h2.boton { 
@@ -37,6 +36,10 @@ h2.boton {
 
 h2.subtitle-blanco { 
   font-size: 64px;
+}
+
+h2.TextosProyectos { 
+  font-size:9.00vw;
 }
 
 /*tamaños*/
@@ -197,6 +200,13 @@ justify-content:center ;
   margin-bottom: 50px;
 }
 
+.img1 { 
+  display: flex;
+  flex-direction: column;
+}
+
+
+
 /*Botones*/
 
 .button {
@@ -210,4 +220,20 @@ justify-content:center ;
   transition: background-color 0.2s ease-in-out;
 }
 
-  }
+.al-C2 {
+  flex-direction:row-reverse;
+  gap:9.33vw;
+}
+
+.al-C3 {
+  margin-bottom:7.73vw;
+}
+
+/*Botones*/
+
+.flechas-B {
+  margin-bottom:	12.27vw;
+}
+
+
+}
