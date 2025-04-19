@@ -3,14 +3,14 @@
 /*Tipografias*/
 
 h1.title {
-  font-size: 65px;
+  font-size: 4.51vw;
 }
 
 h2.subtitle { 
-  font-size: 30px;
-  width: 154px;
-  height: 50px;
-  margin: 0px;
+  font-size: 2.08vw;
+  width: 10.69vw;
+  height: 3.47vw;
+  margin: 0;
 }
 
 h2.textos { 
@@ -23,7 +23,7 @@ h2.textos {
 p.textos-blancos, a.textos-blancos { 
   font-size: 4.80vw;
   text-align: center;
-  margin: 0px;
+  margin: 0vw;
 }
 
 p.textos-blancos a {
@@ -31,11 +31,11 @@ p.textos-blancos a {
 }
 
 h2.boton { 
-  font-size: 64px;
+  font-size: 4.44vw;
 }
 
 h2.subtitle-blanco { 
-  font-size: 64px;
+  font-size: 4.44vw;
 }
 
 h2.TextosProyectos { 
@@ -45,72 +45,73 @@ h2.TextosProyectos {
 /*tamaños*/
 
 .photoANI{ 
-  width:  109px;
+  width: 7.57vw;
   height: auto;
 }
 
 .circulo {
-  width: 169px; 
-  height: 160px; 
+  width: 11.74vw;
+  height: 11.11vw;
 }
 
 .fondotp{
-  width:369px; 
-  height: 31px;
-  padding: 15px;
-  border-radius: 10px;
+  width: 25.63vw;
+  height: 2.15vw;
+  padding: 1.04vw;
+  border-radius: 0.69vw;
 }
 
 .photo{ 
-  width: 177px;
   height:auto;
-  border-radius: 25px;
+  width: 12.29vw;
+  border-radius: 1.74vw;
 }
 
 .iconos{ 
-  max-width:24px;
+  max-width: 1.67vw;
 }
 
 .barrasT{ 
-  max-width:275px;
+  max-width: 19.10vw;
 }
 
 .barrasI{ 
-  width: 321px; 
-  height: 12px;
+  width: 22.29vw;
+  height: 0.83vw;
 }
 
 .estrella {
-  font-size: 23px; 
-  margin-left:15px;
+  font-size: 1.60vw;
+  margin-left: 1.04vw;
 }
 
 .mano {
-  font-size: 37px; 
+  font-size: 2.57vw;
 }
 
 .icono-contacto {
-  font-size: 25px;
+  font-size: 1.74vw;
 }
 
 .icono-insta {
-  width: 25px;  
-  height: 25px; 
-  margin-bottom: 30px;
-  margin-top: 30px;
+  width: 1.74vw;
+  height: 1.74vw;
+  margin-bottom: 2.08vw;
+  margin-top: 2.08vw;
 }
 
 /*alineaciones*/
 
 .contenedor-titulo {
-  gap:13px;
-  margin-top: 38px; 
-  margin-bottom: 45px; 
+  gap: 0.90vw;
+  margin-top: 2.64vw;
+  margin-bottom: 3.13vw;
+  
 }
 
 .AniP {
-  width: 169px; 
-  height: 160px; 
+  width: 11.74vw;
+  height: 11.11vw;
 }
 
 .alS{
@@ -125,9 +126,9 @@ justify-content:center ;
 }
 
 .p1{
-  gap: 37px;
-  margin-top: 33px; 
-  margin-bottom: 37px; 
+  gap: 2.57vw;
+  margin-top: 2.29vw;
+  margin-bottom: 2.57vw;
   flex-direction:column;
   justify-content:center;
   align-items: center;
@@ -139,22 +140,22 @@ justify-content:center ;
 }
 
 .p11{
-  gap:2px;
-  width: 367px; 
+  gap: 0.14vw;
+  width: 25.47vw;
   height: auto; 
 }
 
 .al-H2 {
   display: flex;
   align-items:center;
-  gap: 14px;
+  gap: 0.97vw;
 }
 
 .b1 {
   display: flex;
   align-items: stretch;
   flex-direction: column;
-  gap:0px;
+  gap:0vw;
 }
 
 .b11 {
@@ -164,17 +165,17 @@ justify-content:center ;
 }
 
 .barras {
-  gap: 10px;
+  gap: 0.69vw;
 }
 
 .barrasIz {
   flex-direction: column;
-  gap: 10px;
+  gap: 0.69vw;
 }
 
 
 .b2 {
-  gap:21px;
+  gap: 1.46vw;
 }
 
 
@@ -184,8 +185,8 @@ justify-content:center ;
 
 
 .al-H {
-  width: 321px; 
-  height: 35px;
+  width: 22.29vw;
+  height: 2.43vw;
   align-items: center;
 
 }
@@ -193,11 +194,11 @@ justify-content:center ;
 .al-P {
   display: flex;
   flex-direction: row-reverse;
-  gap: 8px;
+  gap: 0.56vw;
 }
 
 .al-P2 {
-  margin-bottom: 50px;
+  margin-bottom: 3.47vw;
 }
 
 .img1 { 
@@ -205,14 +206,20 @@ justify-content:center ;
   flex-direction: column;
 }
 
+.An1{ 
+  gap:6.93vw;
+}
 
+.img3 { 
+  flex-direction: column;
+}
 
 /*Botones*/
 
 .button {
-  width:230px;
-  height: 65px;
-  border-radius: 15px;
+  width: 11.98vw;
+  height: 3.39vw;
+  border-radius: 0.78vw;
   background-color: var(--adornos);
   position: relative;
   border: none;
@@ -222,7 +229,7 @@ justify-content:center ;
 
 .al-C2 {
   flex-direction:row-reverse;
-  gap:9.33vw;
+  gap: 9.33vw;
 }
 
 .al-C3 {
@@ -235,5 +242,8 @@ justify-content:center ;
   margin-bottom:	12.27vw;
 }
 
+.mi-icono {
+  font-size: 5vw;
+}
 
 }

@@ -1,7 +1,7 @@
 /*tamaños*/
 .photo{ 
-    width: 413px;
-    height:454px;
+    width: 31.53vw;
+    height: 31.53vw;
     border-radius: 25px;
 }
 
@@ -11,8 +11,8 @@
 }
 
 .photoANI{ 
-    width: 293px;
-    height: 399px;
+    width: 20.35vw;
+    height: 27.71vw;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -22,27 +22,27 @@
 }
 
 .iconos{ 
-    max-width:65px;
+    max-width: 4.51vw;
 }
 
 .barrasT{ 
-    max-width:502px;
+    max-width: 34.86vw;
 }
 
 .barrasI{ 
-    max-width:239px;
+    max-width: 16.6vw;
 }
 
 .icono-insta {
-    width: 95px;  
-    height: 95px; 
-    margin-bottom: 30px;
-    margin-top: 30px;
+    width: 6.6vw;
+    height: 6.6vw;
+    margin-top: 2.08vw;
+    margin-bottom: 2.08vw;
 }
 
 .circulo {
-    width: 438px; 
-    height: 438px; 
+    width: 30.42vw;
+    height: 30.42vw;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -54,29 +54,29 @@
 
 .fondotp {
     background-color: var(--adornos);
-    width: 1173px;
-    height: 86px;
-    padding: 29px;
-    border-radius: 15px;
+    width: 81.43vw;
+    height: 5.97vw;
+    padding: 2.01vw;
+    border-radius: 1.04vw;
     position: relative;
     z-index: 1;
 }
 
 .fondohp {
     background-color: var(--iconos);
-    width:502px; 
-    height: 51px;
-    border-radius: 15px;
+    width: 34.86vw;
+    height: 3.54vw;
+    border-radius: 1.04vw;
 }
 
 .flechasT{ 
-    font-size: 50px;
+    font-size: 3.47vw;
     font-style: bold;
 
 }
 .maceta{ 
     max-width: 100%;
-    border-radius: 15px;
+    border-radius: 1.04vw;
 }
 
 /*Tipografias*/
@@ -90,7 +90,7 @@ h1.title {
     font-weight: 500;
     font-style: normal;
     color: var(--textos);
-    font-size: 200px;
+    font-size: 13.89vw;
     flex-wrap:wrap;
 }
 
@@ -99,10 +99,10 @@ h2.subtitle {
     font-weight: 400;
     font-style: normal;
     color: var(--textos-naranja);
-    font-size: 120px;
     background-color: var(--adornos);
-    width: 383px;
-    height: 137px;
+    font-size: 8.33vw;
+    width: 26.6vw;
+    height: 9.52vw;
     border-radius: 15px;
     display: flex;
     align-items: center;
@@ -118,7 +118,7 @@ h2.subtitle2 {
     font-family: "Karantina", system-ui;
     font-weight: 400;
     font-style: normal;
-    font-size: 75px;
+    font-size: 5.21vw;
     color: var(--textos-naranja);
     display: flex;
     text-align: center;
@@ -129,7 +129,7 @@ h2.boton {
     font-family: "Karantina", system-ui;
     font-weight: 400;
     font-style: normal;
-    font-size: 120px;
+    font-size: 8.33vw;
     color: var(--textos-naranja);
     text-align: center;
     margin: 0;
@@ -144,13 +144,13 @@ h2.textos {
     background-color: var(--adornos);
     text-align: center;
     padding: 0.68vw; 
-    border-radius: 15px;
+    border-radius: 1.04vw;
 }
 
 p.textos-blancos, a.textos-blancos { 
     font-family: "Afacad", sans-serif;
     color: var(--textos);
-    font-size: 2.08vw;
+    font-size: 2.8vw;
     line-height:0.9;
     flex-wrap:wrap;
 }
@@ -189,19 +189,20 @@ h2.subtitle-naranja {
     font-weight: 400;
     font-style: normal;
     color: var(--textos-naranja);
-    font-size: 96px;
+    font-size: 6.67vw;
+    text-align: center;
     background-color: var(--adornos);
-    padding:6px;
+    padding: 0.42vw;
     display: flex;
     justify-content: center; 
-    margin-bottom: 95px;
+    margin-bottom: 6.6vw;
     flex-wrap:wrap;
 }
 
 p.textos-blancos-pequeños { 
     font-family: "Afacad", sans-serif;
     color: var(--textos);
-    font-size: 24px;
+    font-size: 1.67vw;
     text-align: center;
     flex-wrap:wrap;
 }
@@ -211,7 +212,7 @@ p.textos-blancos-pequeños {
 .An1{ 
     display: flex;
     flex-direction: column;
-    gap:32px;
+    gap: 2.22vw;
     align-items:center;
 }
 
@@ -220,7 +221,7 @@ p.textos-blancos-pequeños {
     align-items: center;
     justify-content: center;
     flex-wrap:wrap;
-    gap:23px;
+    gap:1.67vw;
 }
 
 .img1 { 
@@ -236,7 +237,7 @@ p.textos-blancos-pequeños {
     flex-direction: row-reverse;
     justify-content: center; 
     align-items:center;
-    gap: 114px;
+    gap: 7.92vw;
 }
 
 .img3 { 
@@ -245,8 +246,8 @@ p.textos-blancos-pequeños {
     align-items: center;
     justify-content: center;
     margin: auto;
-    gap:80px;
-    margin-top: 61px;
+    gap: 5.56vw;
+    margin-top: 4.23vw;
 }
 
 .img2 { 
@@ -255,7 +256,7 @@ p.textos-blancos-pequeños {
     justify-content: center; 
     align-items: center;
     text-align: center;
-    gap:46px
+    gap: 3.19vw;
 }
 
 .P3{
@@ -263,7 +264,7 @@ p.textos-blancos-pequeños {
     align-items: flex-start;
     justify-content: center; 
     gap: 7.5vw;
-    margin-bottom: 198px;
+    margin-bottom: 13.75vw;
     flex-wrap: wrap;
 }
 
@@ -273,7 +274,7 @@ p.textos-blancos-pequeños {
     justify-content: center; 
     gap: 12vw;
     flex-shrink: 1;
-    margin-bottom: 74px;
+    margin-bottom: 5.14vw;
     flex-wrap: wrap;
 }
 
@@ -300,9 +301,9 @@ p.textos-blancos-pequeños {
 .p1{
     display: flex;
     justify-content: center;
-    gap:65px;
-    margin-top: 59px; 
-    margin-bottom: 78px; 
+    gap: 4.51vw;
+    margin-top: 4.10vw;
+    margin-bottom: 5.42vw;
     margin-left: auto;
     margin-right: auto;
     flex-wrap:wrap;
@@ -313,8 +314,8 @@ p.textos-blancos-pequeños {
     display: flex;
     align-items: stretch;
     flex-direction: column;
-    gap:35px;
-    width: 693px; 
+    gap: 2.43vw;
+    width: 48.13vw;
     height: auto; 
 }
 
@@ -322,29 +323,29 @@ p.textos-blancos-pequeños {
     display: flex;
     align-items: stretch;
     flex-direction: column;
-    gap:26px; 
+    gap: 1.81vw;
 }
 
 .AniP {
     position: relative;
-    width: 438px; 
-    height: 438px;
+    width: 30.42vw;
+    height: 30.42vw;
 }
 
 .al-H {
     display: flex;
     align-items: baseline;
-    gap: 10px;
     background-color: var(--iconos);
-    width: 502px; 
-    height: 51px;
-    border-radius: 15px; 
+    gap: 0.69vw;
+    width: 34.86vw;
+    height: 3.54vw;
+    border-radius: 1.04vw;
 }
 
 .al-H2 {
     display: flex;
     align-items: baseline;
-    gap: 10px;
+    gap: 0.69vw;
 }
 
 .al-P {
@@ -355,7 +356,7 @@ p.textos-blancos-pequeños {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 24px;
+    gap: 1.67vw;
     cursor: pointer;
 }
 
@@ -364,7 +365,7 @@ p.textos-blancos-pequeños {
     align-items: center;
     justify-content: center;
     position: relative;
-    margin-bottom: 201px;
+    margin-bottom: 10.47vw;
 }
 
 .al-C {
@@ -384,7 +385,7 @@ p.textos-blancos-pequeños {
     display: flex;
     align-items:baseline;
     justify-content:center;
-    gap:112px;
+    gap: 7.78vw;
     flex-wrap:wrap;
 }
 
@@ -398,30 +399,30 @@ p.textos-blancos-pequeños {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:38px;
-    margin-top: 165px; 
-    margin-bottom: 326px; 
+    gap: 2.64vw;
+    margin-top: 11.46vw;
+    margin-bottom: 22.64vw;
 }
 
 .barras {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:30px;
+    gap: 2.08vw;
 }
 
 .barrasIz {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:30px;
+    gap: 2.08vw;
 }
 
 .b3 {
     display: flex;
     flex-direction: column ;
     align-items: flex-end;
-    gap:20px
+    gap: 1.39vw;
 }
 
 
@@ -429,21 +430,21 @@ p.textos-blancos-pequeños {
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap:20px;
+    gap: 1.39vw;
 }
 
 .b1 {
     display: flex;
     align-items: stretch;
     flex-direction: column;
-    gap:20px;
+    gap: 1.39vw;
 }
 
 .b11 {
     display: flex;
     align-items: stretch;
     flex-direction: column;
-    gap:20px;
+    gap: 1.39vw;
 }
 
 
@@ -451,8 +452,8 @@ p.textos-blancos-pequeños {
     display: flex;
     justify-content: space-between;
     align-items: flex-start; 
-    gap: 40px;
-    padding: 20px;
+    gap: 2.78vw;
+    padding: 1.39vw;
 }
 
 .P5 {
@@ -460,7 +461,7 @@ p.textos-blancos-pequeños {
     flex-direction: column; 
     justify-content: center; 
     align-items: center;
-    margin-top: 61px;
+    margin-top: 4.23vw;
     
 }
 
@@ -468,8 +469,8 @@ p.textos-blancos-pequeños {
     display: flex;
     justify-content: center; 
     flex-direction: row;
-    margin-bottom: 61px;
-    margin-top: 26px;
+    margin-bottom: 4.23vw;
+    margin-top: 1.81vw;
 }
 
 .PC {
@@ -492,12 +493,12 @@ p.textos-blancos-pequeños {
     /*iconos*/ 
     .mi-icono {
         color: var(--iconos);
-        font-size: 33px;
+        font-size: 2.29vw;
     }
     
     .icono-contacto {
         color: var(--icono); 
-        font-size: 95px;
+        font-size: 6.60vw;
 
     }
     
@@ -506,21 +507,21 @@ p.textos-blancos-pequeños {
 
     .estrella {
         color: var(--fondo);
-        font-size: 34px; 
-        margin-left:15px;
+        font-size: 2.36vw;
+        margin-left: 1.04vw;
     }
     
     .mano {
         color: var(--textos-naranja);
-        font-size: 79px; 
+        font-size: 5.49vw;
     }
     
 /*Botones*/
 
 .button {
-    width: 1194px;
-    height: 135px;
-    border-radius: 15px;
+    width: 82.92vw;
+    height: 9.38vw;
+    border-radius: 1.04vw;
     background-color: var(--adornos);
     position: relative;
     border: none;
@@ -529,9 +530,9 @@ p.textos-blancos-pequeños {
 }
 
 .buttonI {
-    width: 168px;
-    height: 75px;
-    border-radius: 15px;
+    width: 11.67vw;
+    height: 5.21vw;
+    border-radius: 1.04vw;
     background-color: var(--adornos);
     position: relative;
     border: none;
@@ -547,9 +548,9 @@ p.textos-blancos-pequeños {
 .flechas-B {
     background-color: var(--adornos);
     color: var(--textos-naranja);
-    border-radius: 15px;
-    width: 75px;
-    height: 75px;
+    width: 5.21vw;
+    height: 5.21vw;
+    border-radius: 1.04vw;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
     display: flex;
