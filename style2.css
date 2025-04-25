@@ -2,248 +2,246 @@
 
 /*Tipografias*/
 
-h1.title {
-  font-size: 4.51vw;
-}
-
 h2.subtitle { 
-  font-size: 2.08vw;
-  width: 10.69vw;
-  height: 3.47vw;
-  margin: 0;
+  border-radius: 1vw;
 }
 
 h2.textos { 
-  display: flex;
-  justify-content: center; 
-  align-items: center;
-  font-size: 	6.40vw;
+  font-size:  6.15vw;
+  background-color: var(--adornos);
+  text-align: center;
+  padding: 0.68vw; 
+  border-radius: 2vw;
 }
 
 p.textos-blancos, a.textos-blancos { 
-  font-size: 4.80vw;
+  font-size: 4.62vw;
+  line-height:0.9;
   text-align: center;
-  margin: 0vw;
 }
 
-p.textos-blancos a {
-  font-size:4vw
-}
+p.Textos-Blancos, a.Textos-Blancos { 
+  font-size:6vw;
 
-h2.boton { 
-  font-size: 4.44vw;
 }
 
 h2.subtitle-blanco { 
-  font-size: 4.44vw;
+  font-size:16.41vw;
+  text-align: center;
+}
+
+h2.boton { 
+  font-size: 16.41vw;
+  text-align: center;
+  margin: 0;
+  flex-wrap:wrap;
 }
 
 h2.TextosProyectos { 
-  font-size:9.00vw;
+  font-size:10.26vw;
 }
+
+p.textos-blancos-pequeños { 
+  font-size:4.62vw;
+}
+
+h2.subtitle2 { 
+  font-size: 16.41vw;
+}
+
 
 /*tamaños*/
 
-.photoANI{ 
-  width: 7.57vw;
-  height: auto;
+.maceta{ 
+  max-width:76.25vw;
+  border-radius: 1.04vw;
 }
 
-.circulo {
-  width: 11.74vw;
-  height: 11.11vw;
-}
-
-.fondotp{
-  width: 25.63vw;
-  height: 2.15vw;
-  padding: 1.04vw;
-  border-radius: 0.69vw;
+.Router{ 
+  margin-bottom: 3vw;
 }
 
 .photo{ 
-  height:auto;
-  width: 12.29vw;
-  border-radius: 1.74vw;
+  width:49.74vw;
+  height: auto;
+}
+
+.fondotp {
+  border-radius: 2vw;
+}
+
+.mi-icono {
+  font-size: 6.15vw;
 }
 
 .iconos{ 
-  max-width: 1.67vw;
+  max-width: 8.97vw;
 }
 
 .barrasT{ 
-  max-width: 19.10vw;
+  width: 70.51vw;
+  height:   3.08vw;
 }
 
 .barrasI{ 
-  width: 22.29vw;
-  height: 0.83vw;
+  width:82.05vw;
+  height:  3.08vw;
 }
 
 .estrella {
-  font-size: 1.60vw;
+  color: var(--fondo);
+  font-size: 5.90vw;
   margin-left: 1.04vw;
 }
 
 .mano {
-  font-size: 2.57vw;
+  font-size: 9.49vw;
 }
 
 .icono-contacto {
-  font-size: 1.74vw;
+  font-size: 5.90vw;
+  margin-bottom:2vw;
 }
 
-.icono-insta {
-  width: 1.74vw;
-  height: 1.74vw;
-  margin-bottom: 2.08vw;
-  margin-top: 2.08vw;
+.flechasT{ 
+  font-size: 10.82vw;
 }
 
 /*alineaciones*/
 
-.contenedor-titulo {
-  gap: 0.90vw;
-  margin-top: 2.64vw;
-  margin-bottom: 3.13vw;
-  
+.img3 { 
+  flex-direction:column;
+  gap: 5.56vw;
+  margin-top: 4.23vw;
 }
 
-.AniP {
-  width: 11.74vw;
-  height: 11.11vw;
+.An1{ 
+  display: flex;
+  flex-direction: column;
+  gap:1vw;
+  align-items:center;
+}
+
+.An2{ 
+  gap:0vw;
+  flex-direction: column;
+}
+
+.contenedor-titulo {
+  margin-top: 5vw;
+  margin-bottom: 10vw;
 }
 
 .alS{
-justify-content:center ;
-}
-
-.P1{
-  display: flex;
-  align-items: center;
   justify-content: center;
-  flex-direction:column;
 }
 
 .p1{
-  gap: 2.57vw;
-  margin-top: 2.29vw;
-  margin-bottom: 2.57vw;
-  flex-direction:column;
-  justify-content:center;
+  display: flex;
   align-items: center;
+  flex-direction: column;
 }
 
 .p10{
-  align-items:center;
-
+  align-items: center;
+  gap: 1.81vw;
 }
 
 .p11{
-  gap: 0.14vw;
-  width: 25.47vw;
-  height: auto; 
-}
-
-.al-H2 {
-  display: flex;
-  align-items:center;
-  gap: 0.97vw;
-}
-
-.b1 {
   display: flex;
   align-items: stretch;
   flex-direction: column;
   gap:0vw;
+  width: 87.18vw;
+  height: auto; 
 }
 
-.b11 {
-  display: flex;
-  align-items: stretch;
+.P43{
+  align-items: center;
+  gap: 3vw;
   flex-direction: column;
-}
-
-.barras {
-  gap: 0.69vw;
+  margin-bottom:15vw;
 }
 
 .barrasIz {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0vw;
   flex-direction: column;
-  gap: 0.69vw;
 }
-
-
-.b2 {
-  gap: 1.46vw;
-}
-
 
 .b3 {
-  flex-direction: column-reverse ;
+  display: flex;
+  flex-direction: column ;
+  align-items: flex-end;
+  gap: 3vw;
 }
-
 
 .al-H {
-  width: 22.29vw;
-  height: 2.43vw;
-  align-items: center;
-
-}
-
-.al-P {
   display: flex;
-  flex-direction: row-reverse;
-  gap: 0.56vw;
+  align-items: baseline;
+  background-color: var(--iconos);
+  gap: 3vw;
+  width: 82.31vw;
+  height: 8.97vw;
+  border-radius: 3vw;
 }
 
-.al-P2 {
-  margin-bottom: 3.47vw;
+.b11 {
+  gap:6.92vw;
+}
+
+.al-C2 {
+  display: flex;
+  align-items:center;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  gap:5vw;
+  margin-bottom: 20vw;
+}
+
+.al-C {
+  display: flex;
+  align-items:center;
+  gap:2vw;
+}
+
+.P5 {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;
+  margin-top: 4.23vw;
 }
 
 .img1 { 
   display: flex;
   flex-direction: column;
-}
-
-.An1{ 
-  gap:6.93vw;
-}
-
-.img3 { 
-  flex-direction: column;
+  justify-content: center; 
+  align-items:center;
+  margin-top: 3.18vw;
 }
 
 /*Botones*/
 
 .button {
-  width: 11.98vw;
-  height: 3.39vw;
-  border-radius: 0.78vw;
-  background-color: var(--adornos);
-  position: relative;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.2s ease-in-out;
+  width: 58.97vw ;
+  height: 16.67vw;
+  border-radius:5vw;
 }
-
-.al-C2 {
-  flex-direction:row-reverse;
-  gap: 9.33vw;
-}
-
-.al-C3 {
-  margin-bottom:7.73vw;
-}
-
-/*Botones*/
 
 .flechas-B {
-  margin-bottom:	12.27vw;
+  width:  14.42vw;
+  height:  14.42vw;
+  border-radius: 3vw;
+  margin-bottom: 5vw;
 }
 
-.mi-icono {
-  font-size: 5vw;
+.buttonI {
+  width: 41.54vw;
+  height: 14.87vw;
+  border-radius: 2vw;
 }
 
 }
