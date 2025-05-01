@@ -80,10 +80,6 @@
     max-width:40vw;
 }
 
-.robot{ 
-    max-width:80vw;
-    border-radius: 1.04vw;
-}
 
 /*Tipografias*/
 
@@ -530,7 +526,7 @@ p.textos-blancos-pequeños {
 /*Botones*/
 
 .button {
-    width: 82.92vw;
+    width: 70vw;
     height: 9.38vw;
     border-radius: 1.04vw;
     background-color: var(--adornos);
@@ -559,15 +555,15 @@ p.textos-blancos-pequeños {
 .flechas-B {
     background-color: var(--adornos);
     color: var(--textos-naranja);
-    width: 5.21vw;
-    height: 5.21vw;
-    border-radius: 1.04vw;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
     display: flex;
     align-items: center;
     justify-content: center; 
     margin-bottom:2vw;
+    width:3vw;
+    height: 3vw;
+    border-radius: 1.04vw;
 }
 
 .button:hover {

@@ -22,7 +22,6 @@ p.textos-blancos, a.textos-blancos {
 
 p.Textos-Blancos, a.Textos-Blancos { 
   font-size:6vw;
-
 }
 
 h2.subtitle-blanco { 
@@ -223,6 +222,11 @@ h2.subtitle2 {
   margin-top: 3.18vw;
 }
 
+}.img4 { 
+  flex-direction: column;
+  gap: 5vw;
+}
+
 /*Botones*/
 
 .button {
@@ -232,8 +236,8 @@ h2.subtitle2 {
 }
 
 .flechas-B {
-  width:  14.42vw;
-  height:  14.42vw;
+  width: 14.42vw;
+  height: 14.42vw;
   border-radius: 3vw;
   margin-bottom: 5vw;
 }
@@ -242,6 +246,4 @@ h2.subtitle2 {
   width: 41.54vw;
   height: 14.87vw;
   border-radius: 2vw;
-}
-
 }
