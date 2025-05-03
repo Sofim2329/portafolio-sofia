@@ -181,7 +181,7 @@ h2.TextosProyectos {
     font-weight: 400;
     font-style: normal;
     color: var(--textos);
-    font-size: 5vw;
+    font-size: 6vw;
     text-align: center;
     flex-wrap:wrap;
 }
@@ -561,8 +561,8 @@ p.textos-blancos-pequeños {
     align-items: center;
     justify-content: center; 
     margin-bottom:2vw;
-    width:3vw;
-    height: 3vw;
+    width:5vw;
+    height: 5vw;
     border-radius: 1.04vw;
 }
 
