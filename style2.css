@@ -222,7 +222,7 @@ h2.subtitle2 {
   margin-top: 3.18vw;
 }
 
-}.img4 { 
+.img4 { 
   flex-direction: column;
   gap: 5vw;
 }
@@ -246,4 +246,6 @@ h2.subtitle2 {
   width: 41.54vw;
   height: 14.87vw;
   border-radius: 2vw;
+}
+
 }
